@@ -1,0 +1,16 @@
+.Header{
+    background-color:  black;
+    /* position: sticky;
+    top: 0; */
+    z-index: 1;
+    /* height: 6vh; */
+  }
+  
+  .logo{
+    color: white;
+    margin-left: 13px;
+    padding: 10px;
+    height: 3.5vh;
+    /* width: 40vw; */
+  }
+  

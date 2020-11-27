@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    color: rgb(196, 188, 188);
+    font-weight: lighter;
+}
+
+.title{
+  display: flex;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  height: fit-content;
+}
+
+.DatesLaunch{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white !important;
+}
+.redLaunch{
+    color: rgb(231, 61, 61);
+    letter-spacing: 1px;
+    font-family: 'Acme', sans-serif !important;
+}
+.greenLaunch{
+    color:rgb(123, 182, 123);
+    font-family: 'Acme', sans-serif !important;
+}
+
+.upcomingLaunch{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 7px !important;
+    margin-top: 7px;
+}
+.launch{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.rootLaunch{
+        width: 30%;
+        /* display: grid; */
+        height: fit-content;
+        margin: 10px;
+        background-color: rgb(41, 40, 41) !important;
+        border: 1px solid  rgb(41, 40, 41);
+        transition: all 1s;
+}
+
+.ButtonLaunch{
+    text-decoration-line: none;
+    height: fit-content;
+}
+.button {
+    margin-right: 1vw;
+    letter-spacing: 2px;
+    transition: all 0.5s;
+}
+.button:hover{
+    letter-spacing: 5px;
+}
+
+
+  @media only screen and (max-width: 850px) {
+    .rootLaunch{
+        width: 45%;
+    }
+  }
+
+  @media only screen and (max-width: 660px) {
+    .rootLaunch{
+        width: 80%;
+    }
+  }

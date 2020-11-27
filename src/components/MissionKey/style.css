@@ -1,0 +1,38 @@
+.missionKey {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+}
+
+.key {
+    flex: 1;
+    margin-left: 3vw;
+    /* font-family: serif; */
+    letter-spacing: 13px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.setKeys{
+    display: flex;
+    height: 10vh;
+    margin-left: 3vw ;
+    margin-top: 3vh;
+}
+
+.success {
+    border: 2px solid rgb(123, 182, 123);
+    border-radius: 50%;
+    background-color:rgb(123, 182, 123);
+    padding: 3px 10px 3px 15px;
+    margin-right: 2vw;
+}
+
+.danger {
+    border: 2px solid red;
+    border-radius: 50%;
+    background-color: red;
+    padding: 3px 10px 3px 15px;
+    margin-right: 2vw;
+    margin-left: 6vw ;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.detailContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 5vh 4vh;
+    color: ivory;
+    letter-spacing: 1px;
+    font-family: serif;
+}
+
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 2vh;
+    color: ivory;
+    /* padding-bottom: 8vh; */
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color:rgb(14, 13, 14) !important;
+}
+.Date, .Rocket{
+    background-color:  rgb(41, 40, 41) !important;
+    /* color: rgb(241, 229, 229) !important; */
+    padding: 18px !important;
+    height: fit-content;
+    line-height: 8vh;
+}
+.smallHeading{
+    padding: 2px;
+    font-size: 19px;  
+    /* color: ivory;   */
+}
+
+/* .smallHeading:hover {
+    background-color: rgb(68, 12, 68);
+} */
+
+.btn {
+    text-align: center;
+    margin: 5vh 3vh;
+    padding: 3vh 6vh;
+    border: 1px solid rgb(41, 40, 41);
+    border-radius: 5px;;
+    color: white;
+    box-shadow: 2px 2px 2px 2px rgb(49, 45, 49);
+    background-color: rgb(15, 15, 15);
+    letter-spacing: 2px;
+    transition: all 1s;
+}
+
+.btn:hover{
+    letter-spacing: 5px;
+}
+
+.red{
+    color:red !important;
+    font-size: 20px !important;
+}
+.green{
+    color: #229954 !important;
+    font-size: 20px !important;
+}
+
+
+.value {
+   float: right;
+   color: rgb(196, 188, 188);
+   font-weight: lighter;
+}
+
+.mediumHeading {
+    color: ivory;
+    margin: 3vh 0;
+}
+
+.back {
+    position: relative;
+    bottom: 1.2vh;
+    left: 1vw;
+}
