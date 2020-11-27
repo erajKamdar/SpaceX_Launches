@@ -5,7 +5,6 @@ import './style.css'
 import { Link } from 'react-router-dom';
 import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 import Moment from 'react-moment';
-import Typography from '@material-ui/core/Typography';
 interface Props {
     data: LaunchinfoQuery
 }
